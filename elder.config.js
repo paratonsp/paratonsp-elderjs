@@ -36,7 +36,7 @@ module.exports = {
       //writeLocation: './report.json', // if you want to write a report of errors
     },
     '@elderjs/plugin-sitemap': {
-      origin: '', // the https://yourdomain.com
+      origin: 'https://paratonsp-elder-js.pages.dev', // the https://yourdomain.com
       exclude: [], // an array of permalinks or permalink prefixes. So you can do ['500'] and it will match /500**
       routeDetails: {}, // set custom priority and change freq if not it falls back to default
       lastUpdate: {}, // configurable last update for each route type.
